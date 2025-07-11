@@ -1,6 +1,6 @@
 public abstract class Character implements Creature{
-    String name;
-    int hp;
+    private String name;
+    private int hp;
 
     Character(String name, int hp) {
         setName(name);
